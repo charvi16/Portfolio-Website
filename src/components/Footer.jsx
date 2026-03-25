@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
 
-function Footer() {
+export default function Footer() {
   return (
-    <div>Footer</div>
-  )
+    <footer className="border-t border-white/10 py-8 px-6 md:px-10">
+      <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-gray-400">
+        <p>© 2026 Charvi Agarwal. All rights reserved.</p>
+        
+      </div>
+    </footer>
+  );
 }
-
-export default Footer
